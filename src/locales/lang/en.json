@@ -1,0 +1,30 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutMe": "About me",
+    "contactMe": "Contact me"
+  },
+  "hero": {
+    "title": "Dr. Juan Perez - Specialist Physician",
+    "description": "I'm Dr. Juan Perez, a specialist physician with over 15 years of experience. My goal is to provide the best medical care to my patients.",
+    "earlyAccess": "Get early access",
+    "learnMore": "Learn more"
+  },
+  "services": {
+    "title": "Services",
+    "description": "I offer a comprehensive selection of medical services, encompassing a wide range of specialized treatments and healthcare solutions, including:",
+    "generalMedicalT": "General medical",
+    "chronicDiseaseCareT": "Chronic Disease Care",
+    "personaliedMedicalCareT": "Personalized medical care",
+    "diagnostiTestsT": "Diagnostic tests",
+    "generalMedicalDesc": "General medical consultation to discuss health issues and receive guidance.",
+    "chronicDiseaseCareDesc": "Prevention and management of chronic diseases such as diabetes or hypertension.",
+    "personaliedMedicalCareDesc": "Personalized medical care tailored to individual needs.",
+    "diagnostiTestsDesc": "Medical tests for the accurate diagnosis of health conditions."
+  },
+
+  "aboutMe": {
+    "title": "About Me",
+    "description": "I graduated from Medical University with honors, holding a distinguished academic record. Subsequently, I completed my residency program at General Hospital, where I gained invaluable clinical experience. I am proud to be board-certified in the field of internal medicine, a testament to my expertise and commitment to providing high-quality healthcare. With a wealth of knowledge and years of practice, I specialize in the diagnosis and treatment of both chronic and acute illnesses, ensuring the best care for my patients."
+  }
+}

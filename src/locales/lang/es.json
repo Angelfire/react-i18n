@@ -1,0 +1,29 @@
+{
+  "header": {
+    "home": "Inicio",
+    "aboutMe": "Sobre mi",
+    "contactMe": "Contáctame"
+  },
+  "hero": {
+    "title": "Dr. Juan Perez - Médico Especialista",
+    "description": "Soy el Dr. Juan Pérez, un médico especializado con más de 15 años de experiencia. Mi objetivo es brindar la mejor atención médica a mis pacientes.",
+    "earlyAccess": "Obtener acceso anticipado",
+    "learnMore": "Más información"
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Ofrezco una amplia selección de servicios médicos, que abarcan una amplia gama de tratamientos especializados y soluciones de atención médica, que incluyen:",
+    "generalMedicalT": "Atención Médica General",
+    "chronicDiseaseCareT": "Cuidado de Enfermedades Crónicas",
+    "personaliedMedicalCareT": "Atención Médica Personalizada",
+    "diagnostiTestsT": "Pruebas de Diagnóstico",
+    "generalMedicalDesc": "Consulta médica general para discutir problemas de salud y recibir orientación.",
+    "chronicDiseaseCareDesc": "Prevención y manejo de enfermedades crónicas como diabetes o hipertensión.",
+    "personaliedMedicalCareDesc": "Atención médica personalizada adaptada a las necesidades individuales.",
+    "diagnostiTestsDesc": "Pruebas médicas para el diagnóstico preciso de condiciones de salud."
+  },
+  "aboutMe": {
+    "title": "Sobre mi",
+    "description": "Me gradué de la Universidad de Medicina con honores, manteniendo un destacado historial académico. Posteriormente, completé mi programa de residencia en el Hospital General, donde adquirí una valiosa experiencia clínica. Estoy orgulloso de estar certificado por la junta en el campo de la medicina interna, lo que es un testimonio de mi experiencia y compromiso en brindar atención médica de alta calidad. Con una amplia base de conocimientos y años de práctica, me especializo en el diagnóstico y tratamiento de enfermedades crónicas y agudas, asegurando la mejor atención para mis pacientes."
+  }
+}
