@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { LanguageContext } from "@/context/LanguageContext";
-import { IReturnChangeLanguageFunction } from "@/hooks/Interfaces";
+import { IReturnUseLanguage } from "@/hooks/Interfaces";
 
-export const useLanguage = (): IReturnChangeLanguageFunction => {
+export const useLanguage = (): IReturnUseLanguage | never => {
   const context = useContext(LanguageContext);
 
   if (context === undefined) {
