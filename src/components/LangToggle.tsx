@@ -14,15 +14,15 @@ const LangToggle = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button size="sm" variant="secondary">
-          <span>{language}</span>
+          {language}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" forceMount>
         <DropdownMenuItem onClick={() => changeLanguage("en")}>
-          <span>English</span>
+          English
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => changeLanguage("es")}>
-          <span>Español</span>
+          Español
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

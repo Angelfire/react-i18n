@@ -5,7 +5,7 @@ const Services = () => {
 
   return (
     <section className="grid grid-cols-2 gap-5 mt-24 container">
-      <h2 className="text-5xl font-bold">{t("services.title")}</h2>
+      <h2 className="text-3xl font-bold">{t("services.title")}</h2>
       <p className="text-xl font-light leading-9">
         {t("services.description")}
       </p>
