@@ -1,6 +1,7 @@
+import React from "react";
 import LangToggle from "@/components/LangToggle";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-900">
       <div className="container py-5 flex justify-between">

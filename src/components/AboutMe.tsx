@@ -1,8 +1,9 @@
+import React from "react";
 import { useLanguage } from "@/hooks/useLanguage";
 
-import aboutme from "/aboutme.png";
+import aboutMe from "/aboutme.png";
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
   const { t } = useLanguage();
 
   return (
@@ -13,7 +14,7 @@ const AboutMe = () => {
           <p className="text-xl text-white leading-8">
             {t("aboutMe.description")}
           </p>
-          <img className="w-96" src={aboutme} alt="About me" />
+          <img className="w-96" src={aboutMe} alt="About me" />
         </div>
       </div>
     </section>

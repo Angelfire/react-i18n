@@ -1,9 +1,10 @@
+import React from "react";
 import illustration from "/illustration.png";
 
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/useLanguage";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   const { t } = useLanguage();
 
   return (
