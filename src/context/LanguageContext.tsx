@@ -51,7 +51,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     }
   };
 
-  const t = (key: string) => {
+  const t = (key: string): string => {
     const keys = key.split(".");
     let translation = translations;
 
