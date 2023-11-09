@@ -1,6 +1,7 @@
+import React from "react";
 import { useLanguage } from "@/hooks/useLanguage";
 
-const Header = () => {
+const Header: React.FC = () => {
   const { t } = useLanguage();
 
   return (

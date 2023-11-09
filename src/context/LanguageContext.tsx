@@ -3,11 +3,10 @@ import { SUPPORTED_LANGUAGES } from "@/locales/constants";
 import enTranslations from "@/locales/lang/en.json";
 import esTranslations from "@/locales/lang/es.json";
 
-interface Translations {
+interface ITranslations {
   [key: string]: { [key: string]: string };
 }
 
-// type Language = "en" | "es";
 type Language = (typeof SUPPORTED_LANGUAGES)[number];
 
 interface LanguageContextType {
@@ -36,7 +35,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 
   const [language, setLanguage] = useState<Language>(initialLanguage);
 
-  const translations: Translations =
+  const translations: ITranslations =
     language === "en" ? enTranslations : esTranslations;
 
   useEffect(() => {

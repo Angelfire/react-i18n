@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -7,7 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useLanguage } from "@/hooks/useLanguage";
 
-const LangToggle = () => {
+const LangToggle: React.FC = () => {
   const { language, changeLanguage } = useLanguage();
 
   return (
